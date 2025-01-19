@@ -1,0 +1,25 @@
+.phonenumber-field{
+    display: flex;
+}
+
+.phonenumber-field  .inputFields-loginForms{
+    flex : 1 1;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.loginPage-formsHolder{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    width: 60%;
+}
+
+.metaTag-phoneNumber-loginForms{
+    color: #026451;
+    font-size: 12px;
+    margin-left: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

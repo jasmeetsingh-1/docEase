@@ -1,0 +1,116 @@
+.loginPage-holder{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.loginPage-left{
+    flex: 0 0 40%;
+    background-color: #016451;
+    padding: 22px;
+}
+
+.loginPage-right{
+    flex: 1 1;
+    background-color: #F5F5F5;
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: center;
+    padding-top: 8.43rem;
+}
+
+
+/* common css used in the child forms  */
+
+.formHolder-loginForms{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.row-loginForms{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+
+.row-loginForms > button{
+    border: none;
+    outline: none;
+    background-color: #026451;
+    color: white;
+    font-size: 16px;
+    border-radius: 24px;
+    padding: 12px 0;
+}
+
+.inputFields-loginForms{
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.header-section-loginForms{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.header-section-loginForms > h2{
+    font-weight: 600;
+}
+
+.header-section-loginForms > p{
+    margin:0;
+    color: #414143;
+    font-size: 16px;
+}
+
+
+
+label[for="adminPhoneNo"] {
+    display: flex;
+}
+
+.metaSection-passwords > .viewPassword{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* phoneNumber code react select */
+.phonenumber-field .css-b62m3t-container .css-13cymwt-control{
+    border: none;
+    height: 41px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.notSelected {
+    border: 1px solid #A5A5A6;
+    border-radius: 100%;
+    min-width: 15px;
+    min-height: 15px;
+}
+
+.password-requirements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 16px; 
+  }
+
+.password-requirements > div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8.5px;
+}
+
+.password-requirements > div > span{
+    color: #0A0A0C;
+    opacity: 34%;
+}
